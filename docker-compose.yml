@@ -36,7 +36,7 @@ services:
     environment:
       - DB_HOST=mariadb
       - DB_PORT=3306
-      - DB_USERNAME=bn_myapp
+      - DB_USERNAME=root
       - DB_DATABASE=bitnami_myapp
     networks:
       - app-network
